@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/List.cpp
+List.h
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/List.h
+
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/List.h
+iostream
+-
+Node.h
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/Node.h
+
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/Node.h
+
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/doublyList.cpp
+List.h
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/List.h
+
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/main.cpp
+List.cpp
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/List.cpp
+doublyList.cpp
+C:/Users/mauri/Documents/GitHub/cs2100-list-mauricio-rodriguez/doublyList.cpp
+
