@@ -1,9 +1,8 @@
 //
-// Created by mauri on 09-Apr-20.
+// Created by mauri on 14-Apr-20.
 //
 
-#ifndef SIMPLE_EXAMPLE_LIST_H
-#define SIMPLE_EXAMPLE_LIST_H
+#pragma once
 
 #include <iostream>
 #include "Node.h"
@@ -46,9 +45,9 @@ public:
     virtual void push_back(const T& element) = 0;
 
     // Inserta un elemento al inicio
- virtual void push_front(const T& element) = 0;
+    virtual void push_front(const T& element) = 0;
 
- // Quita el ultimo elemento y retorna una referencia
+    // Quita el ultimo elemento y retorna una referencia
     virtual T pop_back(void) = 0;
 
     // Quita el primer elemento y retorna una referencia
@@ -67,25 +66,20 @@ public:
     virtual void clear(void) = 0;
 
     // Elimina un elemento en base a un puntero
-    virtual void erase(Node<T>*) = 0;
+    //virtual void erase(Node<T>*) =0;
 
     // Inserta un elemento  en base a un puntero
-    virtual void insert(Node<T>*, const T&) = 0;
+    //virtual void insert(Node<T> *node, const T &t) =0;
 
     // Elimina todos los elementos por similitud
-    virtual void remove(const T&) = 0;
+    virtual void remove(const T&) =0;
 
     // ordena la lista
-   /* virtual List& sort(void) = 0;
-
-    // invierte la lista
-    virtual List& reverse(void) = 0;
+    virtual void sort(void) = 0;
 
     // Imprime la lista con cout
     template<typename __T>
     inline friend std::ostream& operator<< (std::ostream& , const List<__T>& );
-    */
 };
 
-
-#endif //SIMPLE_EXAMPLE_LIST_H
+//SIMPLE_EXAMPLE_LIST_H

@@ -1,32 +1,17 @@
 //
-// Created by mauri on 09-Apr-20.
+// Created by mauri on 14-Apr-20.
 //
-#ifndef SIMPLE_EXAMPLE_NODE_H
-#define SIMPLE_EXAMPLE_NODE_H
-template <typename T>
-class Node {
-    public:
-        T value;
-        Node<T> * next;
-        Node(){
-            next = nullptr;
-        }
 
-        ~Node(){
-        }
-};
+#pragma once
 template <typename T>
-class doublyNode:public Node<T>{
-public:
-    doublyNode<T> * back;
+struct Node {
+    T value;
+    Node *  next;
+};
+
+template <typename T>
+struct doublyNode{
+    T value;
     doublyNode<T> * next;
-    doublyNode(){
-        Node<T>();
-        back = nullptr;
-    }
-
-    ~doublyNode(){
-    }
+    doublyNode<T> * back;
 };
-
-#endif //SIMPLE_EXAMPLE_NODE_H
